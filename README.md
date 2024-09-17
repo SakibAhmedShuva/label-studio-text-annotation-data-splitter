@@ -33,7 +33,6 @@ Edit the split ratio (currently set to 0.7 for a 70%-30% training-validation spl
 
 4. Example Output:
    ```bash
-   Copy code
    Total data: 1000
    Training data: 700
    Validation data: 300
