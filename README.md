@@ -19,23 +19,23 @@ This repository contains a Python script for splitting annotated data (JSON form
 ![{AE87331D-4AF1-4587-AD39-86A2748F41E1}](https://github.com/user-attachments/assets/008faf75-d7b9-4fe1-a227-0f88485f5b07)
 
 
-3. Clone the Repository
+2. Clone the Repository
 
    ```bash
    git clone https://github.com/yourusername/label-studio-data-splitter.git
    cd label-studio-data-splitter
 
-4. Modify the input filepath and intended split ratio
+3. Modify the input filepath and intended split ratio
 Edit the split ratio (currently set to 0.7 for a 70%-30% training-validation split):
   
    ```bash
    split_index = int(len(data) * 0.7)  # Adjust 0.7 to your desired ratio
 
-5. Run the script:
+4. Run the script:
    ```bash
    python data_splitter.py
 
-6. Example Output:
+5. Example Output:
    ```bash
    Total data: 1000
    Training data: 700
