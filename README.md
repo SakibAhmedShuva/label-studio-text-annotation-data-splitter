@@ -4,7 +4,7 @@ This repository contains a Python script for splitting annotated data (JSON form
 
 ## Features
 
-- Splits JSON data exported from Label Studio into training (70%) and validation (30%) sets.
+- Splits JSON data exported from Label Studio into training and validation sets.
 - Supports UTF-8 encoding to handle various languages and special characters.
 - Shuffles the data to ensure randomness before splitting.
 - Saves the training and validation data into `train.json` and `dev.json` files.
@@ -21,11 +21,15 @@ This repository contains a Python script for splitting annotated data (JSON form
 git clone https://github.com/yourusername/label-studio-data-splitter.git
 cd label-studio-data-splitter
 
-### 2. Modify input filepath as needed
+### 2. Modify the input filepath and intended split ratio
+Edit the split ratio (currently set to 0.7 for a 70%-30% training-validation split):
+
+```bash
+split_index = int(len(data) * 0.7)  # Adjust 0.7 to your desired ratio
 
 ### 3. Run the script:
-   ```bash
-   python data_splitter.py
+```bash
+python data_splitter.py
 
 Example Output:
 
