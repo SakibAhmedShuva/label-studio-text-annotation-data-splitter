@@ -22,7 +22,7 @@ This repository contains a Python script for splitting annotated data (JSON form
 2. Clone the Repository
 
    ```bash
-   git clone https://github.com/yourusername/label-studio-data-splitter.git
+   git clone https://github.com/SakibAhmedShuva/label-studio-text-annotation-data-splitter.git
    cd label-studio-data-splitter
 
 3. Modify the input filepath and intended split ratio
