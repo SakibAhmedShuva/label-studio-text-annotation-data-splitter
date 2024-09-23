@@ -23,7 +23,7 @@ This repository contains a Python script for splitting annotated data (JSON form
 
    ```bash
    git clone https://github.com/SakibAhmedShuva/label-studio-text-annotation-data-splitter.git
-   cd label-studio-data-splitter
+   cd label-studio-text-annotation-data-splitter
 
 3. Modify the input filepath and intended split ratio
 Edit the split ratio (currently set to 0.7 for a 70%-30% training-validation split):
