@@ -40,3 +40,7 @@ Edit the split ratio (currently set to 0.7 for a 70%-30% training-validation spl
    Total data: 1000
    Training data: 700
    Validation data: 300
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
